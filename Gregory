@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+enum Difficulty{
+    Easy,
+    Medium,
+    Hard
+};
+int main(void){
+Difficulty Level = Medium;
+switch(Level){
+    case Easy:
+        cout << "You must suck at this game";
+        break;
+    case Medium:
+        cout << "You are average. You are not special.";
+        break;
+    case Hard:
+        cout << "You will Die immediately";
+        break;
+}
+}
